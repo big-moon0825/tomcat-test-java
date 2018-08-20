@@ -1,0 +1,41 @@
+20-Aug-2018 06:44:31.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+20-Aug-2018 06:44:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+20-Aug-2018 06:44:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+20-Aug-2018 06:44:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Aug-2018 06:44:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.9.120-c9
+20-Aug-2018 06:44:31.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2018 06:44:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+20-Aug-2018 06:44:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_151-b01
+20-Aug-2018 06:44:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2018 06:44:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ubuntu/workspace/tomcat
+20-Aug-2018 06:44:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ubuntu/workspace/tomcat
+20-Aug-2018 06:44:31.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ubuntu/workspace/tomcat/conf/logging.properties
+20-Aug-2018 06:44:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2018 06:44:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/ubuntu/workspace/tomcat/endorsed
+20-Aug-2018 06:44:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ubuntu/workspace/tomcat
+20-Aug-2018 06:44:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ubuntu/workspace/tomcat
+20-Aug-2018 06:44:31.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ubuntu/workspace/tomcat/temp
+20-Aug-2018 06:44:31.882 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+20-Aug-2018 06:44:32.101 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2018 06:44:32.145 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2018 06:44:32.148 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2018 06:44:32.154 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2018 06:44:32.155 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 977 ms
+20-Aug-2018 06:44:32.196 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2018 06:44:32.197 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+20-Aug-2018 06:44:32.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /home/ubuntu/workspace/tomcat/webapps/survey.war
+20-Aug-2018 06:44:32.996 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2018 06:44:33.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /home/ubuntu/workspace/tomcat/webapps/survey.war has finished in 1,707 ms
+20-Aug-2018 06:44:33.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/ubuntu/workspace/tomcat/webapps/ROOT
+20-Aug-2018 06:44:33.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/ubuntu/workspace/tomcat/webapps/ROOT has finished in 24 ms
+20-Aug-2018 06:44:33.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/ubuntu/workspace/tomcat/webapps/host-manager
+20-Aug-2018 06:44:34.000 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/ubuntu/workspace/tomcat/webapps/host-manager has finished in 34 ms
+20-Aug-2018 06:44:34.000 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/ubuntu/workspace/tomcat/webapps/docs
+20-Aug-2018 06:44:34.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/ubuntu/workspace/tomcat/webapps/docs has finished in 23 ms
+20-Aug-2018 06:44:34.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/ubuntu/workspace/tomcat/webapps/manager
+20-Aug-2018 06:44:34.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/ubuntu/workspace/tomcat/webapps/manager has finished in 28 ms
+20-Aug-2018 06:44:34.052 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/ubuntu/workspace/tomcat/webapps/examples
+20-Aug-2018 06:44:34.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/ubuntu/workspace/tomcat/webapps/examples has finished in 522 ms
+20-Aug-2018 06:44:34.578 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Aug-2018 06:44:34.587 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2018 06:44:34.588 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2433 ms
