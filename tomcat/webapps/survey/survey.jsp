@@ -4,7 +4,7 @@
 <script type="text/javascript" src="survey.js"></script>
 </head>
 <body>
-<h2 align="center"><em>Student Survey</em></h2>
+<h2 align="center"><em>Bulletin board Test</em></h2>
 
 <form name="survey_form" method="post" action="surveyProcessing" onsubmit="return dataCheck(this)">
   <table align="center" style="width: 600px">
